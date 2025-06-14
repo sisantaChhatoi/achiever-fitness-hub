@@ -1,73 +1,66 @@
-# Welcome to your Lovable project
+# Achiever Fitness Hub 🏋️‍♂️
 
-## Project info
+## Overview
+Achiever Fitness Hub is a **digital personal gym trainer** that helps users track body metrics, receive **personalized workout & diet plans**, earn points for fitness milestones, and monitor progress through analytics.
 
-**URL**: https://lovable.dev/projects/dc3312b4-e1c3-446d-811a-559873505791
+## Features
+🔹 **User Profiling** – Capture health data to generate customized fitness plans.  
+🔹 **Dynamic Routines** – Daily workouts + diet plans based on fitness goals.  
+🔹 **Gamification** – Earn points for achievements with redeemable perks.  
+🔹 **Progress Tracking** – Visualize the fitness journey with analytics.
 
-## How can I edit this code?
+## Core Requirements 🚀
 
-There are several ways of editing your application.
+### 1️⃣ User Registration & Health Profiling
+✅ Secure **username & password authentication**.  
+✅ Onboarding process:
+- Input **weight, height, age, gender, fitness goals** (e.g., "Lose 10kg," "Build Muscle").
+- Specify **health restrictions** (injuries, dietary preferences).
 
-**Use Lovable**
+### 2️⃣ Fitness Plan Generator
+🏋️ **Workout Plans**
+- Daily workout routines (exercises, sets, reps, rest time).
+- Auto-adjustment based on user progress (e.g., increase difficulty after 2 weeks).
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/dc3312b4-e1c3-446d-811a-559873505791) and start prompting.
+🍽️ **Diet Plans**
+- Calorie-counted meal plans (breakfast, lunch, dinner, snacks) with recipes.
+- Generate **grocery lists** (PDF download option).
 
-Changes made via Lovable will be committed automatically to this repo.
+### 3️⃣ Gamified Checkpoint System
+🏆 **Points & Rewards**
+- Earn points for **daily workouts** (10 pts), **hitting weight goals** (50 pts), and **7-day streaks** (100 pts).
+- Redeem points for **badges & fitness gear discounts**.
 
-**Use your preferred IDE**
+🎯 **Milestones**
+- Unlock achievements automatically (e.g., "First 5kg Lost!").
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 4️⃣ Progress Dashboard
+📊 **Analytics**
+- View **weight & measurement trends** (charts).
+- Track **points earned vs. fitness goals**.
+- Monitor **workout history** (calories burned, consistency).
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+📅 **Daily Check-ins**
+- Log daily weight (optional).
+- Mark workouts as complete.
 
-Follow these steps:
+### 5️⃣ Trainer Portal (Optional)
+🏋️ Certified trainers can:
+- Create **custom workout & diet plans** for users.
+- Track user progress via an analytics dashboard.
+- Send **motivational messages & personalized coaching**.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## Tech Stack ⚙️
+🔹 **Frontend:** Next.js  
+🔹 **Backend:** Django  
+🔹 **Database:** MySQL  
+🔹 **Authentication:** Username & password
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Installation 🛠️
+Clone the repository:
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/dc3312b4-e1c3-446d-811a-559873505791) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+```bash
+git clone https://github.com/sisantaChhatoi/achiever-fitness-hub.git
+cd achiever-fitness-hub
+pip install -r requirements.txt  # Backend dependencies
+npm install  # Frontend dependencies
